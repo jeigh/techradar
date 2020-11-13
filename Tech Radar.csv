@@ -71,4 +71,4 @@ Require,Hold,Tools,,PORTAL uses.  Supersceded by Webpack and NPM
 DBUP,Adopt,Tools,TRUE,Preferred tool
 Redgate Compare,Assess,Tools,,
 Apex Compare,Assess,Tools,,
-ADFS,Hold,Platform,,BUGGY;  Azure AD
+ADFS,Hold,Platform,,BUGGY;  Azure AD better
