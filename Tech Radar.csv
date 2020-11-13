@@ -1,0 +1,75 @@
+name,ring,quadrant,isNew,description
+.NET MVC,Adopt,languages-and-frameworks,,
+Angular,Adopt,languages-and-frameworks,TRUE,
+Aurelia,Hold,languages-and-frameworks,TRUE,
+C#,Adopt,languages-and-frameworks,TRUE,For .NET Framework
+gRPC,Assess,languages-and-frameworks,TRUE,possibly the successor to WCF
+Javascript,Adopt,languages-and-frameworks,,
+Node,Assess,languages-and-frameworks,TRUE,Needed as a dep for other things.
+PowerShell,Adopt,languages-and-frameworks,TRUE,Limit to custom install scripts.
+React,Trial,languages-and-frameworks,TRUE,Prime
+RxJs,Assess,languages-and-frameworks,TRUE,Upstream dependency on Angular
+Typescript,Adopt,languages-and-frameworks,,
+Vb,Hold,languages-and-frameworks,,
+Vue.JS,Hold,languages-and-frameworks,TRUE,Seems to have strengthening real-world acceptance.   Anybody have opinions?
+WCF,Adopt,languages-and-frameworks,,
+WEB API,Adopt,languages-and-frameworks,,
+Wix,Hold,languages-and-frameworks,,
+React,Trial,languages-and-frameworks,TRUE,Prime
+Sitecore,Adopt,Platforms,TRUE,Exclusive to PORTAL
+.NET Core,Adopt,Platforms,,
+.Net Framework 4.5.2,Adopt,Platforms,,"XRM Libraries are compiled to 4.5.2, so some projects are constrained to this version."
+.NET Framework 4.8,Adopt,Platforms,,
+Azure DevOps,Adopt,Platforms,TRUE,
+Blazor,Assess,Platforms,TRUE,
+Containers (Docker/Kubernetes),Assess,Platforms,TRUE,
+TFVC,Hold,Platforms,,
+git,Adopt,Platforms,TRUE,
+Octopus,Adopt,Platforms,TRUE,
+DevOps,Adopt,Techniques,TRUE,DevOps principles are valued.   Some automation is valued. 
+Domain Driven Design,Assess,Techniques,TRUE,This requires an evangelical BSA to really be brought about.
+Gated Checkins,Adopt,Techniques,TRUE,
+git - committing directly into Master,Assess,Techniques,TRUE,Used by Saucy Dogs
+git - Branching Strategies,Adopt,Techniques,TRUE,"(Feature branches,  Release branches, PR', etc...)"
+Infrastructure as Code,Trial,Techniques,TRUE,
+ITIL,Trial,Techniques,,"Almost all IS members are certified, but practices deviate from the formality of ITIL.   Knowledge of ITIL is necessary, but conformance is not."
+Scrum,Assess,Techniques,,GreenStone has demonstrated a disinclination to be shackled by the constraints of Scrum.
+SOA,Hold,Techniques,,A large portion of traditional SOA is wasteful.   Reusability is the most valuable SOA principle.
+TDD,Assess,Techniques,,
+Toil,Hold,Techniques,,"Chapter 5 of the SRE describes toil as ""the kind of work that tends to be manual, repetitive, auomatable, tactical, devoid of enduring value and that scales linearly as service grows.""  While this is inconsistent with some devops principles, multiple flight teams leverage toil as a technique used to deliver value to our customers.   Jason believes this should be Adopt to reflect how it is valued currently within the enterprise;  the rest of the team believes this should be Hold."
+Value Stream Mapping,Adopt,Techniques,TRUE,
+Manually created build definitions,Adopt,Techniques,TRUE,
+Continuous Integration,Adopt,Techniques,,
+Continuous deploy,Assess,Techniques,,deploy to env upon commit
+Continuous delivery,Adopt,Techniques,,build packages upon commit
+Microservices,Trial,Techniques,,
+Monitoring / Logging,Adopt,Techniques,,
+Collaboration between Devs & Ops,Adopt,Techniques,,
+Shift Left,Trial,Techniques,,Shift Left is a practice intended to find and prevent defects early in the software delivery process. The idea is to improve quality by moving tasks to the left as early in the lifecycle as possible. Shift Left testing means testing earlier in the software development process.
+ARM Templates,Hold,Tools,TRUE,Inferior to almost all other ways of deploying cloud infrastructure.
+Gulp,Hold,Tools,TRUE,"Javascript Build Manager.  Used by Grey Duck.   Might be supersceded by NPM or WebPack.  It's in some projects, but shouldn't be used for new ones"
+JetBrains Resharper,Trial,Tools,,"Jason, Matt R, Bill B, Andy S Likes.   Robyn, Bob H, Andy T dislikes."
+NPM,Adopt,Tools,TRUE,Needed for Angular
+NSwagStudio,Trial,Tools,TRUE,Generate client code for rest endpoints:  https://github.com/RicoSuter/NSwag/wiki/NSwagStudio
+nuget,Adopt,Tools,,
+Sass,Adopt,Tools,TRUE,(Might not be relevant due to CSS Varibles) Angular.
+SentryOne Plan Explorer,Trial,Tools,,Used for optimizing complicated SQL queries
+SonarCloud,Assess,Tools,TRUE,
+SSMS 18+,Adopt,Tools,TRUE,
+Terraform,Trial,Tools,TRUE,
+TFVC,Hold,Tools,,
+SecretServer,Assses,Tools,TRUE,
+VS 2013 - Data Tools,Adopt,Tools,,Only use for SSIS and SRS projects until SQL Server 2014 is removed from production;  then re-evaluate:  https://docs.microsoft.com/en-us/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-ver15
+VS 2015,Hold,Tools,,
+VS 2019,Adopt,Tools,,
+VS Code,Adopt,Tools,TRUE,
+Webpack,Assess,Tools,TRUE,Used in Angular under the hood.   Not manually interacted with.
+YAML Build definitions,Trial,Tools,TRUE,
+Azure Data Studio,Trial,Tools,TRUE,https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15
+Visual Studio 2010,Adopt,Tools,,Adopt Only for Outlook Templates.  HOLD for everything else
+Less,Trial,Tools,,Portal Uses Less
+Require,Hold,Tools,,PORTAL uses.  Supersceded by Webpack and NPM
+DBUP,Adopt,Tools,TRUE,Preferred tool
+Redgate Compare,Assess,Tools,,
+Apex Compare,Assess,Tools,,
+ADFS,Hold,Platform,,BUGGY;  Azure AD
